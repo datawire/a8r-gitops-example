@@ -1,14 +1,4 @@
 ---
-apiVersion: x.getambassador.io/v3alpha1
-kind: AmbassadorMapping
-metadata:
-  name: quote-backend
-  namespace: gitops-demo
-spec:
-  hostname: "*"
-  prefix: /backend/
-  service: quote
----
 apiVersion: v1
 kind: Service
 metadata:
