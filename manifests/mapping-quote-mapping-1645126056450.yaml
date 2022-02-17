@@ -1,0 +1,40 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: quote-mapping-1645126056450
+  namespace: gitops-demo
+spec:
+  service: quote.gitops-demo:80
+  timeout_ms: 3000
+  connect_timeout_ms: 3000
+  retry_policy:
+    retry_on: 5xx
+    num_retries: 1
+    per_try_timeout: 0.150s
+  hostname: "*"
+  prefix: /backend/
+  docs:
+    path: /.ambassador-internal/openapi-docs
+  labels:
+    ambassador:
+    - group_by:
+      - generic_key:
+          value: quote-mapping-1645126056450
+      - remote_address:
+          key: remote_address
+---
+apiVersion: getambassador.io/v3alpha1
+kind: RateLimit
+metadata:
+  name: rate-limit-for-quote-mapping-1645126056450
+  namespace: gitops-demo
+spec:
+  domain: ambassador
+  limits:
+  - action: Enforce
+    pattern:
+    - generic_key: quote-mapping-1645126056450
+    - remote_address: "*"
+    rate: 5
+    unit: minute
+    burstFactor: 1
