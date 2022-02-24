@@ -37,7 +37,7 @@ spec:
 apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
-  name: echo-server
+  name: echo-server1
   namespace: gitops-demo
 spec:
   hostname: '*'
