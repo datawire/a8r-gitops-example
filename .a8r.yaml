@@ -1,0 +1,5 @@
+k8s_config:
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: a456caf3-e8db-527f-8d2f-5b6b12c0f061
+    cluster_name: Will W.'s cluster
