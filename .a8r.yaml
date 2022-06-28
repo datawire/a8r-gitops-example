@@ -1,0 +1,5 @@
+k8s_config:
+- manifest_path: /manifest
+  cluster_info:
+    cluster_id: 24821ef5-62a9-59ad-8a52-3bcd1e3a8cb9
+    cluster_name: Jose de la Mora's cluster
