@@ -41,5 +41,5 @@ name: echo-server
 namespace: gitops-demo
 spec:
 hostname: '*'
-prefix: /backend/
+prefix: /echo-backend/
 service: echo-server
