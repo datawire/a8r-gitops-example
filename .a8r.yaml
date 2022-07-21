@@ -7,3 +7,7 @@ k8s_config:
   cluster_info:
     cluster_id: fc049469-4e71-5d4a-89a6-e6be6f8e7d00
     cluster_name: Staging
+- manifest_path: /manifest
+  cluster_info:
+    cluster_id: aaf03b1e-02b5-52f9-8ea5-0e90586c5359
+    cluster_name: Cluster 001
