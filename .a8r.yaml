@@ -11,3 +11,7 @@ k8s_config:
   cluster_info:
     cluster_id: aaf03b1e-02b5-52f9-8ea5-0e90586c5359
     cluster_name: Cluster 001
+- manifest_path: /manifest
+  cluster_info:
+    cluster_id: 9285f4f6-6de7-5aab-8490-55d68611cc39
+    cluster_name: test-023
