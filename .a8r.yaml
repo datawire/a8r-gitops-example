@@ -15,11 +15,3 @@ k8s_config:
   cluster_info:
     cluster_id: 9285f4f6-6de7-5aab-8490-55d68611cc39
     cluster_name: test-023
-- manifest_path: /manifest
-  cluster_info:
-    cluster_id: b3e9e34d-addf-50f6-8088-9eeddb047f6c
-    cluster_name: gitops-test-cluster
-- manifest_path: /manifest
-  cluster_info:
-    cluster_id: b3e9e34d-addf-50f6-8088-9eeddb047f6c
-    cluster_name: gitops-test-cluster
