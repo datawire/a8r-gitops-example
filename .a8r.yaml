@@ -1,0 +1,5 @@
+k8s_config:
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: b7039f46-b9c1-5cb9-a356-8562a1a71871
+    cluster_name: AES Smoke Tests - Helm
