@@ -25,6 +25,8 @@ kind: Service
 metadata:
   name: echo-server
   namespace: gitops-demo
+  annotations:
+    a8r.io/owner: "@fluidtruck/devops"
 spec:
   ports:
     - name: http-port
