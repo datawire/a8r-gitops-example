@@ -7,3 +7,7 @@ k8s_config:
   cluster_info:
     cluster_id: 2c5b7741-4035-5487-aa7e-62f960543128
     cluster_name: Lance-ConfigAnal
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: d7226a11-0719-548c-bc64-92ddd6dec229
+    cluster_name: AES SmokeTest 2.4.2 - Maual
