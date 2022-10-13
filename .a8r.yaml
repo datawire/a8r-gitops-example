@@ -1,9 +1,5 @@
 k8s_config:
 - manifest_path: /manifests
   cluster_info:
-    cluster_id: 3df610f6-c376-56cb-8544-69b8e85a12e0
-    cluster_name: alex-smoke-tests-2.3.0-rc.2
-- manifest_path: /manifests
-  cluster_info:
     cluster_id: 4bbf5bc0-c3c4-504e-a829-cf2abdbd7dc4
     cluster_name: Alex Gervais's cluster
