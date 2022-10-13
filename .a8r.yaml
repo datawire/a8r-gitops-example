@@ -7,3 +7,7 @@ k8s_config:
   cluster_info:
     cluster_id: 4bbf5bc0-c3c4-504e-a829-cf2abdbd7dc4
     cluster_name: Alex Gervais's cluster
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: 21b0a879-0e45-577d-87fb-22fd71d11e32
+    cluster_name: Edge Stack 3.2
