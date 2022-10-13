@@ -1,15 +1,19 @@
 ---
+apiVersion: getambassador.io/v3alpha1
+kind: Mapping
+metadata:
+  name: quote-backend
+  namespace: gitops-demo
+spec:
+  hostname: "*"
+  prefix: /backend/
+  service: quote
+---
 apiVersion: v1
 kind: Service
 metadata:
   name: quote
   namespace: gitops-demo
-  annotations:
-    a8r.io/description: "Quote of the Moment"
-    a8r.io/owner: "alexgervais"
-    a8r.io/chat: "#emissary"
-    a8r.io/documentation: "https://github.com/datawire/qotm/blob/master/README.md"
-    a8r.io/repository: "https://github.com/datawire/qotm"
 spec:
   ports:
   - name: http
