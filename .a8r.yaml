@@ -11,3 +11,7 @@ k8s_config:
   cluster_info:
     cluster_id: 21b0a879-0e45-577d-87fb-22fd71d11e32
     cluster_name: Edge Stack 3.2
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: 021f6d7a-d21f-5019-a97a-0bfa4b86ff7d
+    cluster_name: Alexis cluster
