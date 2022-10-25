@@ -3,3 +3,7 @@ k8s_config:
   cluster_info:
     cluster_id: 021f6d7a-d21f-5019-a97a-0bfa4b86ff7d
     cluster_name: Alexis cluster
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: b555c75d-0a94-5440-9f1f-df95309dfb89
+    cluster_name: rc-13
